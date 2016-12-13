@@ -7,9 +7,9 @@ La raspberry se encargará de interactuar con el usuario del coche y con el mism
 
 Estado del proyecto:
 --------------------
-+Estado: activo.
-+Lenguaje de programación: por decidir.
-+Versión: 0.0001 (mucho antes del alpha).
++ Estado: activo.
++ Lenguaje de programación: por decidir.
++ Versión: 0.0001 (mucho antes del alpha).
 
 
 

@@ -25,6 +25,13 @@ int cocheIsArrancado(char* pregunta){
 			}
 		}
 
+int presionIsOk(double presion){
+	if(presion<2.2){return 1;}
+	else if(presion <2.6){return 0;}
+	else if(presion >=2.6){return 2;}
+	else {return -1;}
+}
+
 int main (){
 	char *pregunta;
 	

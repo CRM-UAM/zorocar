@@ -10,6 +10,12 @@
 #include <stdlib.h>
 
 int cocheIsArrancado(char* pregunta){
+			
+			if(pregunta == NULL){
+				printf("ERROR AL ALOJAR MEMORIA PARA LA PREGUNTA.\n");
+				return 0;
+			}	
+			
 			printf("Está el coche arrancado?\n");
 			scanf("%s", pregunta);
 			if(pregunta[0] == 'y' || pregunta[0] == 'Y' || pregunta[0] == 'S' || pregunta[0] == 's'){
@@ -33,11 +39,18 @@ int presionIsOk(double presion){
 }
 
 int main (){
-	char *pregunta;
+	char *pregunta = NULL;
+	double presionRueda = 0;
 	
 	pregunta = (char*) malloc(sizeof(char)*2);
 	
 	while(1){
+		
+		printf("¿Cual es la presión de la rueda?:  ");
+		scanf("%lf", &presionRueda);
+		
+		printf("Resultado del estado de la rueda: %d\n", presionIsOk(presionRueda));
+		
 		if(cocheIsArrancado(pregunta)==0) return 0;	
 	}
 	return 0;

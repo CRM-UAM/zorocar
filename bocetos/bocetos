@@ -1,0 +1,21 @@
+Modulos:
+	-Motor
+		-Revoluciones
+		-Temperatura motor
+		-Temperatura entrada de aire
+		-Temperatura salida de aire
+		-Flujo de aire entrada
+		-Oxigeno de entrada
+		-Aceite
+		-Liquido refrigerante
+	-Ruedas
+		-Velocidad
+		-Presion
+		-Temperatura rueda?
+		-Desgaste?
+	-Electronica
+		-Temperatura exterior
+		-Temperatura interior
+		-Indicador de lluvia
+		-Indicador de nivel de gasolina
+		-Indicador de luz exterior
